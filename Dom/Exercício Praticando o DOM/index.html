@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<h1>Cadastro de Imoveis</h1>
+    <p>
+        <label>Tipo :</label>
+        <input type="radio" value="Casa" name="house-type" />Casa
+        <input type="radio" value="Apartamento" name="house-type" />Apartamento
+    </p>
+
+    <p>
+        <input type="checkbox" name="isRented" /> Alugado
+    </p>
+
+    
+    <p>
+        <label>Área (m²) :</label>
+        <input type="number" name="area" step="any" min="0" />
+    </p>
+
+    <button type="button" onclick="app.createHouse()">Cadastrar</button>
+    <button type="button" onclick="app.cleanForm()">Limpar</button>
+<hr>
+
+<h3>Lista de Propiedades</h3>
+<ul id="house-list"></ul>
+
+<script src="./js/registration.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/houselist.js"></script>
+</body>
+
+</html>

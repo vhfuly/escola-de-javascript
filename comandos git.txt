@@ -1,0 +1,35 @@
+Criando um novo repositório :
+
+git init (comando utilizadao na pasta que quero versionar)
+git status ( ver os status dos arquivos)
+git add "nome do arquivo e extensão" ( monitora os arquivos)
+git add . ( monitora todos os arquivos)
+git commit -m "Mensagem do commit"(Salva os arquivos selecionados)
+
+git log ( Mostra historico dos commits)
+
+git diff (mostar a diferança para o ultimo commit)
+
+git commit --amend (Altera o commit)
+
+git reset HEAD (remove os arquivos monitorados)
+
+git checkout --"nome do arquivo" (Volta o arquivo para o ultimo commit)
+
+git branch (Mostara as branchs do nosso projeto)
+
+git branch "Nome da branch" (Assim podemos criar uma nova branch)
+
+git checkout "Nome da branch"( assim podemos trocar de branch)
+
+git branch -d "Nome da branch" (deleta a branch)
+
+git merge "nome da branch" ( adiciona os aquivos e mudanças de uma branch)
+
+git clone "url do projeto no gitHub" ( clona o projeto para a pasta que estamos atualmente)
+
+git remote add origin "url do githug" (link do git com github)
+
+git push origin master ( subir um progeto no git)
+
+git pull origin master (baixar os arquivos do github)

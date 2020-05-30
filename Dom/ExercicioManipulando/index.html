@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio: Manipulando o DOM</title>
+    
+</head>
+<body>
+  
+    <form id="house">
+        <p>
+            <label>Número da residência : </label>
+            <input type="number" name="house-number" id="house-number" >
+        </p>
+        <p>
+            <label>Bairro : </label>
+            <input type="text" name="neighborhood"id="neighborhood" >
+        </p>
+        <p>
+            <label>Cidade : </label>
+            <input type="text" name="city" id="city" >
+        </p>
+        <p>
+            <label>Área da casa : </label>
+            <input type="text" name="house-area" id="house-area">
+        </p>
+       
+    </form>
+    <button onclick="addHouseData ()">Adicionar</button>
+    
+    <ul id="house-list"></ul>
+
+    <script src="House.js"></script>
+</body>
+</html>

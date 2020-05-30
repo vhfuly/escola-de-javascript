@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre</title>
+</head>
+<body>
+    <h3>Cadasdtro da liga dos astronautas</h3>
+    <form action="" >
+        <div> 
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name"><br>
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"> - 
+            <Label for="password">Password</Label>
+            <input type="password" id="password" name="password">
+        </div>
+        <br>
+        <div>
+            <label for="date">Data do nascimento :</label>
+            <input type="date" id="date" name="date"> -
+            <label for="file">Foto :</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <br>
+        <div>
+            <label for="Nacionalidade">Nacionalidade :</label>
+            <input list="Nacionalidade">
+            <label for="nationality">Nacionalidade:</label>
+                <select name="nationality" id="nationality">
+                    <option value="russian">Russa</option>
+                    <option value="american">Americana</option>
+                    <option value="brasilian">Brasileira</option>
+                </select> - 
+            Genero:
+            <Label for="F"> F </Label>
+            <input type="radio" id="F" name="genero" value="F">
+            <Label for="M"> M </Label>
+            <input type="radio" id="M" name="genero" value="M">
+        </div>
+        <br>
+        <div>
+            Suas Principais Habilidades :<br>
+
+            <label for="hab1">Inteligência </label>
+            <input type="checkbox" id="hab1" name="hab1" value="Inteligência"> | 
+            <label for="hab2"> Resiliência </label>
+            <input type="checkbox" id="hab2" name="hab2" value="Resiliência"> | 
+            <label for="hab3"> Preparo físico </label>
+            <input type="checkbox" id="hab3" name="hab3" value="Preparo físico"> | 
+            <label for="hab4"> Educação </label>
+            <input type="checkbox" id="hab4" name="hab4" value="Educação"> | 
+        </div>
+        <br>
+        <div>
+             <textarea name="texto" rows="10" cols="30" placeholder="Proque você gostaria de ser um astronauta ?"></textarea>
+        </div>
+        <br>
+        <div>
+             <input type="submit" value="Criar">
+        </div>
+    </form>
+</body>
+</html>
