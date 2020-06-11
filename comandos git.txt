@@ -30,6 +30,6 @@ git clone "url do projeto no gitHub" ( clona o projeto para a pasta que estamos 
 
 git remote add origin "url do githug" (link do git com github)
 
-git push origin master ( subir um progeto no git)
+git push origin master ( subir um projeto no git)
 
 git pull origin master (baixar os arquivos do github)
